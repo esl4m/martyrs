@@ -1,0 +1,21 @@
+{% if res_list %}
+    <ul>
+    {% for profile in res_list %}
+        <li><a href="/remove_profile/{{ profile.id }}/">{{ profile.name }}</a>
+            <br/>
+            Date of Birth : {{ profile.date_of_birth }}
+            <br/>
+            Date Of Death : {{ profile.date_of_death }}
+            <br/>
+            Cause Of Death : {{ profile.cause_of_death }}
+            <br/>
+            Officer Name : {{ profile.officer_name }}
+            <br/>
+            Governorate : {{ profile.governorate }}
+            <br/><br/>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Profiles available.</p>
+{% endif %}

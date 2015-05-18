@@ -10,4 +10,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    # url(r'^remove/id/$', views.remove_profile, name='remove'),
 ]
