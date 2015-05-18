@@ -1,3 +1,9 @@
+#  models.py
+#
+#  by: Islam Diaa
+#       18 May 2015
+#
+
 from django.db import models
 
 

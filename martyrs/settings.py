@@ -1,3 +1,9 @@
+#  settings.py
+#
+#  by: Islam Diaa
+#       18 May 2015
+#
+
 """
 Django settings for martyrs project.
 
