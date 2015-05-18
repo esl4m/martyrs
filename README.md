@@ -18,6 +18,7 @@ install django 1.8 latest version
 
 and install mysql
 >>> pip install pymysql
+<br/>
 >>> pip install MySQL-python
 
 " or "
@@ -29,17 +30,17 @@ just run
 
 
 5- Create mysql Database :
-from terminal login to mysql
+from terminal login to mysql 
 >>> mysql --user=root --password=root
 then create your database 
 >>> create database martyrs ;
 
 
 6- Run Django Admin :
->>> python manage.py runserver
-then type on your browser
+>>> python manage.py runserver 
+ then type on your browser 
 >>> 127.0.0.1:8000/admin/
 
-username : admin
+username : admin , 
 password : admin
 
