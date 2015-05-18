@@ -1,6 +1,8 @@
 # martyrs
 Hello I'm Islam Diaa
-and this is a small Django app for tracking the martyrs of the 25th of January revolution.
+and this is a small Django app for tracking the martyrs of the 25th of January revolution.<br/>
+works on Python 2.7.6 and Django 1.8
+...
 
 1-On your workspace create new folder martyrs and in this folder then create a new env<br/>
 $ virtualenv env
@@ -29,7 +31,7 @@ $ pip install -r requirements.txt    # (to install all requirements)
 4- Clone latest version
 <br/>
 $ git clone https://github.com/esl4m/martyrs.git
-
+<br/>
 
 5- Create mysql Database :
 <br/>
