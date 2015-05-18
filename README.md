@@ -2,31 +2,32 @@
 Hello I'm Islam Diaa
 and this is a small Django app for tracking the martyrs of the 25th of January revolution.
 
-1-
-On your workspace create new folder martyrs 
-and in this folder then create a new env
+1-On your workspace create new folder martyrs and in this folder then create a new env<br/>
 $ virtualenv env
-
-2-
-Then activate it :
+<br/>
+2-Then activate it :
+<br/>
 $ source env/bin/activate
-
-
+<br/>
 3- Install requirements :
 <br/>
 install django 1.8 latest version
+<br/>
 $ pip install Django==1.8
-
+<br/>
 and install mysql
 $ pip install pymysql
 <br/>
 $ pip install MySQL-python
-
+<br/>
 " or "
 just run
+<br/>
 $ pip install -r requirements.txt    # (to install all requirements)
+<br/>
 
 4- Clone latest version
+<br/>
 $ git clone https://github.com/esl4m/martyrs.git
 
 
@@ -38,18 +39,18 @@ $ mysql --user=root --password=root
 then create your database 
 <br/>
 $ create database martyrs ;
+<br/>
 
-
-6- Run Django Admin :
+6- Run Django Admin :<br/>
 $ python manage.py runserver 
 <br/>
 then type on your browser 
 <br/>
 $ 127.0.0.1:8000/admin/
 <br/>
-* username : admin & password : admin
+username : admin & password : admin
 <br/>
-* or create another super user : 
+or create another super user : <br/>
 $ python manage.py createsuperuser
 
 7- Enjoy
