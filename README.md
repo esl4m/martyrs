@@ -47,9 +47,9 @@ then type on your browser
 <br/>
 >>> 127.0.0.1:8000/admin/
 <br/>
-- username : admin & password : admin
+* username : admin & password : admin
 <br/>
-- or create another super user : 
+* or create another super user : 
 >>> python manage.py createsuperuser
 
 7- Enjoy
