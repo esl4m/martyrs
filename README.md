@@ -13,6 +13,7 @@ Then activate it :
 
 
 3- Install requirements :
+<br/>
 install django 1.8 latest version
 >>> pip install Django==1.8
 
@@ -30,17 +31,22 @@ just run
 
 
 5- Create mysql Database :
+<br/>
 from terminal login to mysql 
 >>> mysql --user=root --password=root
+<br/>
 then create your database 
+<br/>
 >>> create database martyrs ;
 
 
 6- Run Django Admin :
 >>> python manage.py runserver 
- then type on your browser 
+<br/>
+then type on your browser 
+<br/>
 >>> 127.0.0.1:8000/admin/
-
-username : admin , 
+<br/>
+username : admin
+<br/>
 password : admin
-
