@@ -3,6 +3,8 @@ Hello I'm Islam Diaa
 and this is a small Django app for tracking the martyrs of the 25th of January revolution.<br/>
 works on Python 2.7.6 and Django 1.8
 <br/>
+You can currently see current martyrs and add new.
+<br/>
 * On your workspace create new folder martyrs and in this folder then create a new env<br/>
 ```
 $ virtualenv env
@@ -55,4 +57,4 @@ or create another super user :
 ```
 $ python manage.py createsuperuser
 ```
-* Enjoy
+* Good luck!
